@@ -14,7 +14,7 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 # Loading the saved model
 diabetes_model = pickle.load(open('saved_models/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('D:\C DATA AFTER RAM & SSD INSTALLATION\CODE HISTORY\AICTE INTERNSHIP\Disease Prediction\saved_models\heart_diseases.sav', 'rb'))
+heart_disease_model = pickle.load(open('saved_models/heart_diseases.sav', 'rb'))
 
 parkinsons_model = pickle.load(open('D:\C DATA AFTER RAM & SSD INSTALLATION\CODE HISTORY\AICTE INTERNSHIP\Disease Prediction\saved_models\parkinsons_model.sav', 'rb'))
 
